@@ -13,6 +13,10 @@ sudo docker-compose up -d
 sudo docker-compose ps
 sudo docker-compose logs -f
 
+sudo docker-compose stop hbbs
+sudo docker-compose start hbbs
+
+
 # server pro
 sudo docker network create \
    --driver=bridge  \
