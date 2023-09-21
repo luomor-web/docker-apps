@@ -4,6 +4,8 @@ sudo docker image pull rustdesk/rustdesk-server
 sudo docker run --name hbbs -v `pwd`:/root -td --net=host rustdesk/rustdesk-server hbbs -r <relay-server-ip[:port]>
 sudo docker run --name hbbr -v `pwd`:/root -td --net=host rustdesk/rustdesk-server hbbr
 
+# TCP (21115, 21116, 21117, 21118, 21119)
+# UDP (21116)
 
 # server pro
 sudo docker network create \
