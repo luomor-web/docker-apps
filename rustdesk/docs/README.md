@@ -9,6 +9,7 @@ sudo docker run --name hbbr -v `pwd`:/root -td --net=host rustdesk/rustdesk-serv
 docker logs hbbs
 
 # rustdesk docker-compose
+sudo docker pull rustdesk/rustdesk-server:1.1.8-2
 sudo docker-compose up -d
 sudo docker-compose down
 sudo docker-compose ps
