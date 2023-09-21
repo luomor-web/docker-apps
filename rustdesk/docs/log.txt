@@ -30,3 +30,10 @@ sudo docker images
 REPOSITORY                   TAG       IMAGE ID       CREATED         SIZE
 laravelsail/php81-composer   latest    d109f96a6d48   21 months ago   531MB
 rustdesk/rustdesk-server     latest    b732f09f2d6e   2 years ago     85.3MB
+
+sudo docker-compose ps
+Name              Command               State                                                       Ports
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+hbbr   hbbr -k _                        Up      0.0.0.0:21117->21117/tcp,:::21117->21117/tcp, 0.0.0.0:21119->21119/tcp,:::21119->21119/tcp
+hbbs   hbbs -r 152.136.174.88:211 ...   Up      0.0.0.0:21115->21115/tcp,:::21115->21115/tcp, 0.0.0.0:21116->21116/tcp,:::21116->21116/tcp,
+                                                0.0.0.0:21116->21116/udp,:::21116->21116/udp, 0.0.0.0:21118->21118/tcp,:::21118->21118/tcp

@@ -19,6 +19,7 @@ sudo docker-compose stop hbbs
 sudo docker-compose start hbbs
 
 http://152.136.174.88:21117/
+netstat -tlnp
 
 # server pro
 sudo docker network create \
