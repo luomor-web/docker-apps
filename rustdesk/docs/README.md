@@ -1,4 +1,10 @@
 ```shell
+# https://rustdesk.com/docs/en/self-host/rustdesk-server-oss/docker/
+sudo docker image pull rustdesk/rustdesk-server
+sudo docker run --name hbbs -v `pwd`:/root -td --net=host rustdesk/rustdesk-server hbbs -r <relay-server-ip[:port]>
+sudo docker run --name hbbr -v `pwd`:/root -td --net=host rustdesk/rustdesk-server hbbr
+
+
 # server pro
 sudo docker network create \
    --driver=bridge  \
