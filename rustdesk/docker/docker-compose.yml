@@ -9,7 +9,7 @@ services:
       - 21116:21116/udp
       - 21118:21118
     image: rustdesk/rustdesk-server:latest
-    command: hbbs -r rustdesk.luomor.com:21117
+    command: hbbs -r rustdesk.luomor.com:21117 -k _
     volumes:
       - ./data:/root
     networks:
@@ -24,7 +24,7 @@ services:
       - 21117:21117
       - 21119:21119
     image: rustdesk/rustdesk-server:latest
-    command: hbbr
+    command: hbbr -k _
     volumes:
       - ./data:/root
     networks:
