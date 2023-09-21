@@ -9,7 +9,7 @@ services:
       - 21116:21116/udp
       - 21118:21118
     image: rustdesk/rustdesk-server:latest
-    command: hbbs -r rustdesk.luomor.com:21117 -k _
+    command: hbbs -r 152.136.174.88:21117 -k _
     volumes:
       - ./data:/root
     networks:
@@ -17,6 +17,8 @@ services:
     depends_on:
       - hbbr
     restart: unless-stopped
+    environment:
+      TZ: Asia/Shanghai
  
   hbbr:
     container_name: hbbr
@@ -30,6 +32,8 @@ services:
     networks:
       - rustdesk-net
     restart: unless-stopped
+    environment:
+      TZ: Asia/Shanghai
 
 networks:
   rustdesk-net:
