@@ -18,6 +18,9 @@ sudo docker-compose logs -f
 sudo docker-compose stop hbbs
 sudo docker-compose start hbbs
 
+sudo docker exec -it hbbr bash
+sudo docker exec -it hbbs bash
+
 netstat -tlnp
 
 # server pro
