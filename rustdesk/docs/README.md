@@ -10,6 +10,7 @@ docker logs hbbs
 
 # rustdesk docker-compose
 sudo docker-compose up -d
+sudo docker-compose ps
 
 # server pro
 sudo docker network create \

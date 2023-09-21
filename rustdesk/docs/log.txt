@@ -1,0 +1,5 @@
+sudo docker-compose ps
+Name              Command                 State      Ports
+----------------------------------------------------------
+hbbr   hbbr -k _                        Restarting
+hbbs   hbbs -r 152.136.174.88:211 ...   Restarting
