@@ -8,6 +8,9 @@ sudo docker run --name hbbr -v `pwd`:/root -td --net=host rustdesk/rustdesk-serv
 # UDP (21116)
 docker logs hbbs
 
+# rustdesk docker-compose
+sudo docker-compose up -d
+
 # server pro
 sudo docker network create \
    --driver=bridge  \
