@@ -10,6 +10,7 @@ docker logs hbbs
 
 # rustdesk docker-compose
 sudo docker-compose up -d
+sudo docker-compose down
 sudo docker-compose ps
 sudo docker-compose logs -f
 
