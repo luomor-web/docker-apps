@@ -3,3 +3,25 @@ Name              Command                 State      Ports
 ----------------------------------------------------------
 hbbr   hbbr -k _                        Restarting
 hbbs   hbbs -r 152.136.174.88:211 ...   Restarting
+
+
+hbbr    | [2023-09-21T04:21:53Z ERROR hbbr::lic] Registered email required (-m option). Please pay and register on https://rustdesk.com/server.
+hbbr    | [2023-09-21T04:21:54Z ERROR hbbr::lic] Registered email required (-m option). Please pay and register on https://rustdesk.com/server.
+hbbr    | [2023-09-21T04:21:54Z ERROR hbbr::lic] Registered email required (-m option). Please pay and register on https://rustdesk.com/server.
+hbbr    | [2023-09-21T04:21:55Z ERROR hbbr::lic] Registered email required (-m option). Please pay and register on https://rustdesk.com/server.
+hbbr    | [2023-09-21T04:21:56Z ERROR hbbr::lic] Registered email required (-m option). Please pay and register on https://rustdesk.com/server.
+hbbr    | [2023-09-21T04:21:58Z ERROR hbbr::lic] Registered email required (-m option). Please pay and register on https://rustdesk.com/server.
+hbbr    | [2023-09-21T04:22:02Z ERROR hbbr::lic] Registered email required (-m option). Please pay and register on https://rustdesk.com/server.
+hbbr    | [2023-09-21T04:22:08Z ERROR hbbr::lic] Registered email required (-m option). Please pay and register on https://rustdesk.com/server.
+hbbr    | [2023-09-21T04:22:21Z ERROR hbbr::lic] Registered email required (-m option). Please pay and register on https://rustdesk.com/server.
+hbbr    | [2023-09-21T04:22:47Z ERROR hbbr::lic] Registered email required (-m option). Please pay and register on https://rustdesk.com/server.
+hbbs    | [2023-09-21T04:21:54Z ERROR hbbs::lic] Registered email required (-m option). Please pay and register on https://rustdesk.com/server.
+hbbs    | [2023-09-21T04:21:54Z ERROR hbbs::lic] Registered email required (-m option). Please pay and register on https://rustdesk.com/server.
+hbbs    | [2023-09-21T04:21:55Z ERROR hbbs::lic] Registered email required (-m option). Please pay and register on https://rustdesk.com/server.
+hbbs    | [2023-09-21T04:21:56Z ERROR hbbs::lic] Registered email required (-m option). Please pay and register on https://rustdesk.com/server.
+hbbs    | [2023-09-21T04:21:57Z ERROR hbbs::lic] Registered email required (-m option). Please pay and register on https://rustdesk.com/server.
+hbbs    | [2023-09-21T04:21:59Z ERROR hbbs::lic] Registered email required (-m option). Please pay and register on https://rustdesk.com/server.
+hbbs    | [2023-09-21T04:22:02Z ERROR hbbs::lic] Registered email required (-m option). Please pay and register on https://rustdesk.com/server.
+hbbs    | [2023-09-21T04:22:09Z ERROR hbbs::lic] Registered email required (-m option). Please pay and register on https://rustdesk.com/server.
+hbbs    | [2023-09-21T04:22:22Z ERROR hbbs::lic] Registered email required (-m option). Please pay and register on https://rustdesk.com/server.
+hbbs    | [2023-09-21T04:22:48Z ERROR hbbs::lic] Registered email required (-m option). Please pay and register on https://rustdesk.com/server.
